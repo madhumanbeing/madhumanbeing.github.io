@@ -79,9 +79,12 @@
         }
         
         
-        body {
-  font-family: sans-serif;
+body {
+font-family: sans-serif;
 }
+
+####  Slider Controls   ####
+
 #slide-left {
   width: 2rem;
   margin: 0 1rem;
