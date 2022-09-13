@@ -78,3 +78,109 @@
         .stuff{
         }
         
+        
+        body {
+  font-family: sans-serif;
+}
+#slide-left {
+  width: 2rem;
+  margin: 0 1rem;
+}
+#slide-right {
+  width: 2rem;
+  transform: scaleX(-1);
+  margin: 0 1rem;
+}
+.clipping {
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 2;
+  text-align: center;
+  color: black;
+}
+
+main {
+  background-color: #f4f4f4;
+  padding: 4rem 0;
+}
+
+.slide-container {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+section {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+section::-webkit-scrollbar {
+  height: 8px;
+  width: 2px;
+  border: 1px solid #d5d5d5;
+  background-color: #d5d5d5;
+}
+
+section::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba (0, 0, 0, 0.3);
+}
+
+section::-webkit-scrollbar-thumb {
+  background-color: black;
+  outline: 1px solid #eee;
+}
+
+section .thumbnail {
+  flex: 0 0 auto;
+  object-fit: cover;
+  cursor: pointer;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+  overflow: hidden;
+  transform: scale(0.95);
+  transition: all 0.3s;
+}
+
+section .thumbnail:hover {
+  transform: scale(1);
+}
+
+.slider-title {
+  text-align: center;
+  padding-bottom: 1rem;
+  background-color: white;
+}
+
+.slider-title h2 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding-top: 8px;
+}
+
+.slider-title a {
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+}
+
+.slider-title a:hover {
+  background-color: rgb(179, 4, 24);
+}
+
