@@ -1,0 +1,402 @@
+.background
+{
+    top:0px;
+    left:0px;
+    opacity: 0.60;
+    position:fixed;
+    min-height:100%;
+    min-width: 100%;
+}
+.khaoSoi {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.khaoSoi::before
+{
+    content: "";
+    background-image: url(https://www.sidechef.com/recipe/92465243-79a0-4b3e-8c79-8296ea02369b.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.60;
+    position:fixed;
+    width:100%;
+    height:100vh;
+}
+.beefBrisket
+{
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.beefBrisket::before
+{
+    content: "";
+    background-image: url(https://img.freepik.com/premium-photo/texas-style-bbq-smoked-beef-brisket-meat-steak-black-background-top-view-copy-space_89816-30786.jpg?w=996); 
+    background-size:cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    opacity: 0.60;
+    width: 100%;
+    height:100%;
+    position:fixed;
+}
+
+.thaiFishcakes
+{
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thaiFishcakes::before
+{
+    content: "";
+    background-image: url(https://www.kitchensanctuary.com/wp-content/uploads/2014/07/Thai-Fishcake-Bites-on-a-black-plate-with-vegetable-ribbons-and-ingredients-scattered-around-tall-FS.webp); 
+    background-size:cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    opacity: 0.60;
+    width: 100%;
+    height:100%;
+    position:fixed;
+}
+
+.section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+/******************Menu Bar ******************/
+.navigation
+{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 25px 35px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    border: 1px rgba(0,0,0,0.1);
+    transition: height 0.5s, width 0.5s;
+    transition-delay: 0s, 0s;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.navigation.active
+{
+    width: 150px;
+    height: 250px;
+    transition: width 0.5s, height 0.5s;
+    transition-delay: 0s, 0s;
+
+}
+.navigation .menuToggle
+{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navigation .menuToggle::before
+{
+    content: '';
+    position:absolute;
+    width: 34px;
+    height: 2px;
+    background: #555;
+    transform: translateY(-10px);
+    box-shadow: 0 10px #555;
+    transition: 0.5s;
+}
+.navigation .menuToggle::after
+{
+    content: '';
+    position:absolute;
+    width: 32px;
+    height: 2px;
+    background: #555;
+    transform: translateY(10px);
+    transition: 0.5s;
+}
+.navigation.active .menuToggle::before
+{
+    transform: translateY(0px) rotate(45deg);
+    box-shadow: 0 0 #555;
+}
+.navigation.active .menuToggle::after
+{
+    transform: translateY(0px) rotate(-45deg);
+}
+.menu
+{
+    position:absolute;
+    width: 100%;
+    height: calc(100% - 60px);
+    margin-top: 60px;
+    padding: 20px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.menu li
+{
+    list-style: none;
+}
+.menu li a
+{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 1em;
+    gap: 10 px;
+    text-decoration: none;
+    color: #555;
+}
+.menu li a:hover
+{
+    color: #4e65ff;
+}
+
+/************* Randomizer **************/
+
+.randomizer
+{
+margin: 120px auto;
+width: 400px;
+text-align: center;
+box-shadow: 0 25px 35px rgba(0,0,0,0.1);
+color: rgb(0, 0, 0);
+background-color: #fff;
+
+}
+input
+{
+    display: none;
+    visibility: hidden;
+}
+label
+{
+    display: block;
+    border-bottom: 2px #000;
+    transition: 0.2s;
+    text-align:center;
+    color:#000;
+    font-family: 'Poppins';
+    font-weight:bold;
+}
+label:hover
+{
+    color:#4e65ff;
+}
+
+#expand
+{
+    height: 0;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Foodiesfeed.com_pouring-honey-on-pancakes-with-walnuts.jpg/800px-Foodiesfeed.com_pouring-honey-on-pancakes-with-walnuts.jpg); ;
+    overflow:hidden;
+    transition: height 0.5s;
+    background-position: center;
+    background-size:60%;
+    background-repeat:no-repeat;
+}
+
+#toggle:checked ~ #expand
+{
+    height: 300px;
+}
+
+/************** Hidden Recipes ****************/
+
+.hidden {
+    opacity: 0;
+    filter:blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter:blur(0);
+    transform: translateX(0);
+}
+
+.foodLink {
+    display:flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 35px;
+}
+
+.food:nth-child(2){
+    transition-delay:200ms;
+}
+.food:nth-child(3){
+    transition-delay: 200ms;
+}
+.food:nth-child(4){
+    transition-delay: 200ms;
+}
+.food {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 1rem 0.5rem;
+    width:150px;
+    height:150px;
+    overflow: hidden;
+    font-family: 'Poppins';
+    transition-delay: 200ms;
+    margin-top: 10%;
+}
+.food:hover{
+    border-radius: 20px;
+    height:200px;
+    transition-duration: 400ms;
+}
+.food2 {
+    background-color: rgb(255, 255, 255);
+    margin: 1rem 0.5rem;
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    overflow: hidden;
+    font-family:'Poppins';
+    transition-delay: 200ms;
+}
+.food2:hover{
+    border-radius: 20px;
+    height:200px;
+    transition-duration: 400ms;
+}
+.food2:nth-child(2){
+    transition-delay:200ms;
+}
+
+.food2:nth-child(3){
+    transition-delay: 200ms;
+}
+.food2:nth-child(4){
+    transition-delay: 200ms;
+}
+.homebar {
+    width:1000px;
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+}
+.food h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-size:small;
+    text-align: center;
+}
+.food2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-size: small;
+    text-align: center;
+}
+.food a {
+    text-decoration: none;
+    color:#000;
+}
+.food2 a {
+    text-decoration: none;
+    color:#000;
+}
+.food a:visited
+{
+    text-decoration: none;
+    color:#000;
+}
+.food2 a:visited{
+    text-decoration: none;
+    color:#000;
+}
+/*********************** Web Pages ***********************/
+
+
+.recipes{
+
+    width:49%;
+    margin-top:40px;
+    margin-left: 25%;
+    background-color: #fff;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    height:max-content;
+    overflow: hidden;
+
+}
+.mainTitle{
+    font-family: "Poppins";
+    font-weight:bolder;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size:xx-large;
+    padding-top: 20px;
+}
+.secondaryTitles{
+    font-family: "Poppins";
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left:20px;
+    font-size: large;
+    margin-top:10px;
+    
+}
+.ingredientList li {
+    list-style: none;
+    font-family: 'Poppins';
+    font-size: small;
+    font-weight:bold;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+p {
+    margin-left:20px;
+    margin-right:20px;
+    list-style: none;
+    font-family: 'Poppins';
+    font-size: small;
+    font-weight:bold;
+}
+.line {
+    margin-left:20px;
+    width: 550px;
+    height:5px;
+    border-bottom: 1px solid rgb(51, 51, 51);
+    position: absolute;
+    }
+.ingredientList li a {
+    text-decoration: none;
+    color:#000;
+}
+.ingredientList li a:visited {
+    text-decoration: none;
+    color:#000;
+}

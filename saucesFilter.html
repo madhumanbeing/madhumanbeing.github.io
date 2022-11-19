@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="hiddenFeatures.js"></script>
+</head>
+
+<body>
+    
+	<div class = "navigation">
+		<div class = "dropMenu">
+        </div>
+		<div class = "menuToggle"></div>
+        <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./vegetarianFilter.html">Vegetarian Dishes</a></li>
+            <li><a href="./meatFilter.html">Meat Dishes</a></li>
+            <li><a href="./dessertFilter.html">Desserts</a></li>
+            <li><a href="./saucesFilter.html">Sauces</a></li>
+
+        </ul>
+    </div>
+
+	<script>
+        let menuToggle = document.querySelector('.menuToggle');
+        let navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function(){
+        navigation.classList.toggle('active');
+        };
+
+    </script>
+	
+</body>
+
+</html>

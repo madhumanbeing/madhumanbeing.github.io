@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');</style>
+    <script defer src="hiddenFeatures.js"></script>
+</head>
+<body>
+    <div class="homebar"></div>
+    <div class="beefBrisket">
+        <section class="recipes">
+            <div class="mainTitle">Beef Brisket</div>
+            <div class="ingredientList">
+                <li>Prep time: 5 minutes</li>
+                <li>Cook time: 6 hours and 40 minutes</li>
+                <li>Serves: 8</li>
+            </div>
+            <div class="secondaryTitles">Ingredients</div>
+            <div class="ingredientList">
+                <li>2.7kg Brisket</li>
+                <li><a href="https://www.willcookforsmiles.com/the-ultimate-dry-rub/">Dry Rub</a></li>
+                <div class="line"></div>
+            </div>  
+            <div class="ingredientList"></div>
+            <div class="secondaryTitles">Step 1</div>
+            <p>
+                Mix <a href="https://www.willcookforsmiles.com/the-ultimate-dry-rub/">dry rub</a>
+                ingredients. (This recipe for dry rub will cover a 2.7Kg lb brisket.)
+            </p>
+            <div class="secondaryTitles">Step 2</div>
+            <p>
+                Take brisket flat out of the package, lay it on a cutting board and pat it dry with a paper towel. 
+            </p>
+            <div class="secondaryTitles">Step 3</div>
+            <p>
+                Spread a generous amount of dry rub on top, flip the brisket over and spread a generous amount of dry rub over that side. Make sure there is a good amount of seasoning and rub it all over all the sides of the brisket. Massage the rub into every nook and cranny and make sure it’s nicely coated all over.
+            </p>
+            <div class="secondaryTitles">Step 4</div>
+            <p>
+                Wrap rubbed brisket in a couple of layers of foil, covering it tight. Place wrapped brisket in a pan or a dish just in case some juices leak out, so that it doesn’t leak all over the refrigerator.
+            </p>
+            <div class="secondaryTitles">Step 5</div>
+            <p>
+                Refrigerate the brisket overnight or up to 12 hours. Take the brisket out of the refrigerator an hour before cooking it, unwrap and let it get to room temperature. 
+            </p>
+    
+        
+        
+        </section>
+    </div>
+	<div class = "navigation">
+		<div class = "dropMenu">
+        </div>
+		<div class = "menuToggle"></div>
+        <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./vegetarianFilter.html">Vegetarian Dishes</a></li>
+            <li><a href="./meatFilter.html">Meat Dishes</a></li>
+            <li><a href="./dessertFilter.html">Desserts</a></li>
+            <li><a href="./saucesFilter.html">Sauces</a></li>
+        </ul>
+    </div>
+
+    <div class="homebar"></div>
+    <div class="homebar"></div>
+
+
+
+</body>
+<script>
+    let menuToggle = document.querySelector('.menuToggle');
+    let navigation = document.querySelector('.navigation');
+    menuToggle.onclick = function(){
+    navigation.classList.toggle('active');
+    };
+</script>
+
+</html>
