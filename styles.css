@@ -7,8 +7,8 @@
     min-height:100%;
     min-width: 100%;
 }
-@media only screen and (max-width:600px){
-.background {width:600px}
+@media screen and (max-width:767px){
+.background {width:767px}
 }
 
 .thaiFishcakes
@@ -266,9 +266,9 @@
     height:max-content;
     overflow: hidden;
 }
-@media only screen and (max-width: 600px) {
- .recipes {width:100%;}
-}
+@media screen and (max-width:767px){
+    .recipes {width:767px}
+    }
 .mainTitle{
     font-family: "Poppins";
     font-weight:bolder;
