@@ -185,12 +185,6 @@
 .food2:nth-child(4){
     transition-delay: 200ms;
 }
-.homebar {
-    width:1000px;
-    height: 110px;
-    background-color: rgb(255, 255, 255);
-    opacity: 0;
-}
 .food h1 {
     display: flex;
     justify-content: center;
@@ -241,7 +235,7 @@
     height:max-content;
     overflow: hidden;
 }
-@media screen and (max-width:767px){
+@media screen and (max-width:400px){
     .recipes {width:40%; margin-left:0%}
 }
 .mainTitle{
