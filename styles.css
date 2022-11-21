@@ -132,8 +132,6 @@
     display:flex;
     justify-content: center;
     max-width: 80%;
-    margin: 35px;
-    grid-template-rows: repeat(auto-fill, 186px);
     flex-wrap: wrap;
     top:60px;
     position: relative;
