@@ -91,7 +91,7 @@
     padding: 20px;
     border-top: 1px solid rgba(0,0,0,0.1);
     font-family: "Poppins";
-    font-weight: bold;
+    font-weight: bolder;
     z-index: 900000000;
 }
 .menu li
