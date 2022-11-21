@@ -34,6 +34,7 @@
     overflow: hidden;
     border-radius: 10px;
     margin-bottom:10px;
+    position:absolute;
 
 }
 .navigation.active
