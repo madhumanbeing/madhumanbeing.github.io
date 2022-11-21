@@ -5,6 +5,7 @@
     opacity: 0.60;
     position:fixed;
     width:100%;
+    background-size: cover;
 }
 @media screen and (max-width:767px){
 .background {width:767px}
