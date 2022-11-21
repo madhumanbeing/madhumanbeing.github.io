@@ -16,8 +16,11 @@
     place-items: center;
     align-content: center;
     min-height: 100vh;
+    flex-wrap:wrap;
 }
-/*@media screen and (max-width:)*/
+@media screen and (max-width:400px){
+    .section {width: 80%}
+}
 /******************Menu Bar ******************/
 .navigation
 {
