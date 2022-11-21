@@ -11,36 +11,12 @@
 .background {width:767px}
 }
 
-.thaiFishcakes
-{
-    position: relative; 
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.thaiFishcakes::before
-{
-    content: "";
-    background-image: url(https://www.kitchensanctuary.com/wp-content/uploads/2014/07/Thai-Fishcake-Bites-on-a-black-plate-with-vegetable-ribbons-and-ingredients-scattered-around-tall-FS.webp); 
-    background-size:cover;
-    position: absolute;
-    top:0px;
-    left:0px;
-    opacity: 0.60;
-    width: 100%;
-    height:100%;
-    position:fixed;
-}
-
 .section {
     display: grid;
     place-items: center;
     align-content: center;
     min-height: 100vh;
 }
-
 /******************Menu Bar ******************/
 .navigation
 {
@@ -267,8 +243,9 @@
     overflow: hidden;
 }
 @media screen and (max-width:767px){
-    .recipes {width:767px}
-    }
+    .recipes {width:767px; margin-left:0%}
+}
+
 .mainTitle{
     font-family: "Poppins";
     font-weight:bolder;
