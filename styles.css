@@ -242,9 +242,8 @@
     overflow: hidden;
 }
 @media screen and (max-width:767px){
-    .recipes {width:750px; margin-left:0%}
+    .recipes {width:100%; margin-left:0%}
 }
-
 .mainTitle{
     font-family: "Poppins";
     font-weight:bolder;
