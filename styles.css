@@ -134,6 +134,8 @@
     margin: 35px;
     grid-template-rows: repeat(auto-fill, 186px);
     flex-wrap: wrap;
+    top:60px;
+    position: relative;
 }
 
 .food:nth-child(2){
@@ -154,7 +156,6 @@
     overflow: hidden;
     font-family: 'Poppins';
     transition-delay: 200ms;
-    margin-top: 10%;
 }
 .food:hover{
     border-radius: 20px;
