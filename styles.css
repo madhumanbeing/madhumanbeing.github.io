@@ -33,9 +33,10 @@
     transition-delay: 0s, 0s;
     overflow: hidden;
     border-radius: 10px;
-    margin-bottom:10px;
-    position:absolute;
-
+}
+@media screen and (max-width:400px){
+    .navigation{margin-bottom:10%
+                }
 }
 .navigation.active
 {
