@@ -15,7 +15,6 @@
     place-items: center;
     align-content: center;
     min-height: 100vh;
-    grid-template-columns: repeat(auto-fill, 186px);
 }
 /******************Menu Bar ******************/
 .navigation
@@ -135,6 +134,7 @@
     justify-content: center;
     max-width: 80%;
     margin: 35px;
+    grid-template-columns: repeat(auto-fill, 186px);
 }
 
 .food:nth-child(2){
