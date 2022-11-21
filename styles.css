@@ -4,11 +4,11 @@
     left:0px;
     opacity: 0.60;
     position:fixed;
-    min-height:100%;
     min-width: 100%;
 }
 @media screen and (max-width:767px){
-.background {width:767px}
+.background {width:767px;
+            overflow:hidden}
 }
 
 .section {
@@ -243,7 +243,7 @@
     overflow: hidden;
 }
 @media screen and (max-width:767px){
-    .recipes {width:767px; margin-left:0%}
+    .recipes {width:100%; margin-left:0%}
 }
 
 .mainTitle{
