@@ -159,6 +159,9 @@
     font-family: 'Poppins';
     transition-delay: 200ms;
 }
+@media screen and (max-width:400px) {
+    .food {width:8rem;height:8rem}    
+}
 .food:hover{
     border-radius: 20px;
     height:200px;
