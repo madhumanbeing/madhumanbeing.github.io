@@ -136,6 +136,9 @@
     top:60px;
     position: relative;
 }
+@media screen and (max-width:400px){
+    .foodLink {max-width: 100%}
+}
 
 .food:nth-child(2){
     transition-delay:200ms;
@@ -149,7 +152,7 @@
 .food {
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
-    
+    margin: 1rem 0.5rem;
     width:9.35rem;
     height:9.35rem;
     overflow: hidden;
