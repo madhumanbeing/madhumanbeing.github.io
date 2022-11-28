@@ -25,15 +25,12 @@ html,body
     text-decoration: none;
     padding:2rem;
 }
-@media screen and (max-width:767px){
-    .navLinks li a {padding: 1rem}
-    
-}
+
 .navLinks li {
     display: inline-block;
 }
 @media screen and (max-width:767px) {
-    .navLinks li {display:block}    
+    .navLinks li {display:block; padding:0.5rem}    
 }
 header 
 {
