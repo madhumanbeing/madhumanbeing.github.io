@@ -30,7 +30,7 @@ html,body
     display: inline-block;
 }
 @media screen and (max-width:767px) {
-    .navLinks li {display:block; padding:0.5rem}    
+    .navLinks li a {display:block; padding:0.5rem}    
 }
 header 
 {
