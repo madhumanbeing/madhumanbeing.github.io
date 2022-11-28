@@ -17,15 +17,6 @@ html,body
     width:100%;
 }
 
-/*
-{
-    box-sizing: border-box;
-    margin: 0;
-    padding:0;
-    background-color: #24252A;
-    list-style: none;
-}
-*/
 .navLinks li a {
     font-family: "Poppins";
     font-weight: 500;
@@ -33,7 +24,10 @@ html,body
     color:#ecf0f1;
     text-decoration: none;
     padding:2rem;
-
+}
+@media screen and (max-width:400px){
+    .navLinks li a {padding: 1rem; }
+    
 }
 .navLinks li {
     display: inline-block;
@@ -42,7 +36,7 @@ header
 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+
     left:0;
     padding-top: 1rem;
     padding-bottom: 1rem;
