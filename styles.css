@@ -32,6 +32,9 @@ html,body
 .navLinks li {
     display: inline-block;
 }
+@media screen and (max-width:767px) {
+    .navLinks li {display:list-item}    
+}
 header 
 {
     display: flex;
