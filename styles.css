@@ -4,15 +4,15 @@
     opacity: 0.60;
     top:0%;
     left:0%;
-    width: 100%;
+    width:100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*
+
 @media screen and (max-width:400px) {
-    .background {background-size:100% auto; overflow-x: hidden}
+    .background {height:100%; overflow: hidden}
 }
-*/
+
 /******************Menu Bar ******************/
 .navigation
 {
