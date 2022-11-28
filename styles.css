@@ -6,6 +6,43 @@
     background-size:cover;
     width:100%;
 }
+
+/*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    background-color: #24252A;
+    list-style: none;
+}
+*/
+.navLinks li a {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size:1rem;
+    color:#ecf0f1;
+    text-decoration: none;
+    padding:2rem;
+
+}
+.navLinks li {
+    display: inline-block;
+}
+header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left:0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    background-color: #24252A;
+    list-style: none;
+    width:100%;
+}
 /*
 @media screen and (max-width:400px) {
     .background {height:100%; overflow: hidden}
