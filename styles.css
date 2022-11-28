@@ -26,7 +26,7 @@ html,body
     padding:2rem;
 }
 @media screen and (max-width:767px){
-    .navLinks li a {padding: 1rem; }
+    .navLinks li a {padding: 1rem}
     
 }
 .navLinks li {
@@ -45,10 +45,6 @@ header
     background-color: #24252A;
     list-style: none;
     width:100%;
-}
-
-@media screen and (max-width:400px) {
-    .navLinks li {display:list-item}
 }
 
 /******************Menu Bar ******************/
