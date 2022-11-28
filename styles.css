@@ -8,7 +8,7 @@
     width: 100%;
 }
 @media screen and (max-width:400px) {
-    .background {height:150vh; overflow-x: hidden}
+    .background {background-size:100% auto; overflow-x: hidden}
 }
 
 /******************Menu Bar ******************/
