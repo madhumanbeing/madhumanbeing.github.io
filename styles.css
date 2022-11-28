@@ -25,7 +25,7 @@ html,body
     text-decoration: none;
     padding:2rem;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:767px){
     .navLinks li a {padding: 1rem; }
     
 }
@@ -48,7 +48,7 @@ header
 }
 
 @media screen and (max-width:400px) {
-    .navLinks li {display:grid}
+    .navLinks li {display:list-item}
 }
 
 /******************Menu Bar ******************/
