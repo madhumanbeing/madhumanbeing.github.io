@@ -36,7 +36,6 @@ header
 {
     display: flex;
     justify-content: space-between;
-
     left:0;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -47,11 +46,11 @@ header
     list-style: none;
     width:100%;
 }
-/*
+
 @media screen and (max-width:400px) {
-    .background {height:100%; overflow: hidden}
+    .navLinks li {display:inline}
 }
-*/
+
 /******************Menu Bar ******************/
 .navigation
 {
