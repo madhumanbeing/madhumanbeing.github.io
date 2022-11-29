@@ -16,7 +16,7 @@ html,body
     height:100%;
     width:100%;
 }
-
+/*************   Menu Bar   ************/
 .navLinks li a {
     font-family: "Poppins";
     font-weight: 500;
@@ -48,106 +48,6 @@ header
     z-index: 90000000;
 }
 
-/******************Menu Bar ******************/
-.navigation
-{
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    width: 60px;
-    height: 60px;
-    background: rgb(255, 255, 255);
-    box-shadow: 0 25px 35px rgba(0,0,0,0.1);
-    display: flex;
-    justify-content: space-between;
-    border: 1px rgba(0,0,0,0.1);
-    transition: height 0.5s, width 0.5s;
-    transition-delay: 0s, 0s;
-    overflow: hidden;
-    border-radius: 10px;
-}
-@media screen and (max-width:768px){
-    .navigation{margin-bottom:10%
-                }
-}
-.navigation.active
-{
-    width: 180px;
-    height: 300px;
-    transition: width 0.5s, height 0.5s;
-    transition-delay: 0s, 0s;
-
-}
-.navigation .menuToggle
-{
-    position: relative;
-    width: 60px;
-    height: 60px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.navigation .menuToggle::before
-{
-    content: '';
-    position:absolute;
-    width: 34px;
-    height: 2px;
-    background: #555;
-    transform: translateY(-10px);
-    box-shadow: 0 10px #555;
-    transition: 0.5s;
-}
-.navigation .menuToggle::after
-{
-    content: '';
-    position:absolute;
-    width: 32px;
-    height: 2px;
-    background: #555;
-    transform: translateY(10px);
-    transition: 0.5s;
-}
-.navigation.active .menuToggle::before
-{
-    transform: translateY(0px) rotate(45deg);
-    box-shadow: 0 0 #555;
-}
-.navigation.active .menuToggle::after
-{
-    transform: translateY(0px) rotate(-45deg);
-}
-.menu
-{
-    position:absolute;
-    width: 100%;
-    height: calc(100% - 60px);
-    margin-top: 60px;
-    padding: 20px;
-    border-top: 1px solid rgba(0,0,0,0.1);
-    font-family: "Poppins";
-    font-weight: bolder;
-    z-index: 900000000;
-}
-.menu li
-{
-    list-style: none;
-}
-.menu li a
-{
-    display: flex;
-    align-items: center;
-    margin: 15px 0;
-    font-size: 1em;
-    gap: 10 px;
-    text-decoration: none;
-    color: #555;
-}
-.menu li a:hover
-{
-    color: #4e65ff;
-}
 
 /************** Hidden Recipes ****************/
 
