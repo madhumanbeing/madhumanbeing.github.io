@@ -29,7 +29,7 @@ html,body
 .navLinks li {
     display: inline-block;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
     .navLinks li a {padding:0.5rem}    
 }
 header 
@@ -66,7 +66,7 @@ header
     overflow: hidden;
     border-radius: 10px;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:768px){
     .navigation{margin-bottom:10%
                 }
 }
@@ -172,7 +172,7 @@ header
     top:60px;
     position: relative;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:768px){
     .foodLink {max-width: 100%; left:0%}
 }
 
@@ -195,7 +195,7 @@ header
     font-family: 'Poppins';
     transition-delay: 200ms;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:768px) {
     .food {width:8rem;height:8rem}    
 }
 .food:hover{
@@ -239,7 +239,7 @@ header
     height:max-content;
     overflow: hidden;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:768px){
     .recipes {width:100%; margin-left:0%; margin-top:40px}
 }
 .mainTitle{
