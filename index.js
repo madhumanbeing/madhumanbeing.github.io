@@ -1,4 +1,5 @@
-let randomMeal = ["https://madhumanbeing.github.io/veggieBowl.html",
+let linksArray = [
+"https://madhumanbeing.github.io/veggieBowl.com",
 "https://madhumanbeing.github.io/dhal.html",
 "https://madhumanbeing.github.io/morroccanChickpea.html",
 "https://madhumanbeing.github.io/zucchiniFritters.html",
@@ -16,22 +17,8 @@ let randomMeal = ["https://madhumanbeing.github.io/veggieBowl.html",
 "https://madhumanbeing.github.io/ramen.html",
 "https://madhumanbeing.github.io/thaiFishcakes.html"];
 
-function shuffle(randomMeal) {
-    let currentIndex = randomMeal.length,  randomIndex;
-    while (currentIndex != 0) {
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex--;
-      [randomMeal[currentIndex], randomMeal[randomIndex]] = [
-        randomMeal[randomIndex], randomMeal[currentIndex]];
-    }
-  
-    return randomMeal;
-  }
+function randomMeal() {
+  var i = parseInt(Math.random() * linksArray.length);
+  location.href = linksArray[i];
+}
 
-  function randomize(){
-    var myarray = new Array("item1", "item2", "item3");
-    var randomId =  Math.floor((Math.random()*myarray.length));
-    var randomItem = myarray[randomid];
-  
-    alert(randomItem);
-  }
