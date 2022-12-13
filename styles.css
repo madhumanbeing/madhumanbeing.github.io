@@ -22,7 +22,7 @@ html,body
     cursor: pointer;
     display: inline-block;
     font-family: "Poppins",Helvetica,sans-serif;
-    font-size: 1.125rem;
+    font-size: 1.1rem;
     font-weight: 700;
     letter-spacing: -.01em;
     line-height: 1.3;
@@ -70,13 +70,13 @@ html,body
   .button-80:not(:disabled):active {
     transform: translateY(.125rem);
   }
-.randomButton{
+#randomButton{
     border-radius: 10px;
     position: relative;
     margin:0 auto;
     display: block;
-    width:25rem;
-    height:10rem;
+    width:20rem;
+    height:4rem;
     top:50%;
 }
 .centeredButton{
