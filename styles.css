@@ -6,6 +6,11 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
+.buttonstuff {
+    text-decoration: none;
+    color: #212121;
+}
+
 .button-80 {
     background: #fff;
     backface-visibility: hidden;
