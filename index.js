@@ -1,5 +1,5 @@
 let linksArray = [
-"https://madhumanbeing.github.io/veggieBowl.com",
+"https://madhumanbeing.github.io/veggieBowl.html",
 "https://madhumanbeing.github.io/dhal.html",
 "https://madhumanbeing.github.io/morroccanChickpea.html",
 "https://madhumanbeing.github.io/zucchiniFritters.html",
@@ -20,5 +20,7 @@ let linksArray = [
 function randomMeal() {
   var i = parseInt(Math.random() * linksArray.length);
   location.href = linksArray[i];
+  document.getElementById("link").innerHTML = randomMeal();
 }
+
 
