@@ -80,7 +80,7 @@ html,body
     top:50%;
 }
 @media screen and (max-width:767px) {
-    #randomButton {text-align: center; font-size:small}
+    #randomButton {text-align: center; font-size:medium}
 }
 .centeredButton{
     background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
