@@ -177,7 +177,7 @@ header
     font-family: 'Poppins';
 }
 @media screen and (max-width:768px) {
-    .food {width:8rem;height:8rem;border-radius:20px}    
+    .food {width:8rem;height:200;border-radius:20px}    
 }
 
 
