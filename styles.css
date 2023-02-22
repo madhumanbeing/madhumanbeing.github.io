@@ -177,13 +177,15 @@ header
     transition-delay: 200ms;
 }
 @media screen and (max-width:768px) {
-    .food {width:8rem;height:8rem}    
+    .food {width:8rem;height:8rem;border-radius:20px}    
 }
 .food:hover{
     border-radius: 20px;
     height:200px;
     transition-duration: 400ms;
 }
+
+
 .food h1 {
     display: flex;
     justify-content: center;
