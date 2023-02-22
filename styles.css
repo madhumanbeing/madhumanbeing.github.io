@@ -105,6 +105,7 @@ html,body
     color:#ecf0f1;
     text-decoration: none;
     padding:2rem;
+    text-align: center;
 }
 
 .navLinks li {
@@ -168,22 +169,17 @@ header
 }
 .food {
     background-color: rgb(255, 255, 255);
-    border-radius: 50%;
+    border-radius: 20px;
     margin: 1rem 0.5rem;
     width:9.35rem;
-    height:9.35rem;
+    height:200px;
     overflow: hidden;
     font-family: 'Poppins';
-    transition-delay: 200ms;
 }
 @media screen and (max-width:768px) {
     .food {width:8rem;height:8rem;border-radius:20px}    
 }
-.food:hover{
-    border-radius: 20px;
-    height:200px;
-    transition-duration: 400ms;
-}
+
 
 
 .food h1 {
