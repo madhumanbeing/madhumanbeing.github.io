@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+<title>Spicy dry beef</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="styles.css">
+<style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');</style>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+  <header>
+    <nav>
+        <ul class="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="meatFilter.html">Meats</a></li>
+          <li><a href="vegetarianFilter.html">Veggies</a></li>
+          <li><a href="dessertFilter.html">Desserts</a></li>
+        </ul>
+    </nav>
+  </header>
+<div class="recipes">
+<div class="mainTitle">Spicy dry beef</div>
+<div class="ingredientList">
+ <li>Prep time: 15 Minutes</li>
+ <li>Cook time: 1-2 Hours</li>
+ <li>Serves: 4</li>
+</div>
+<div class="secondaryTitles">Ingredients</div>
+<div class="ingredientList">
+ <li>1kg Sliced beef</li>
+ <li>1 tbsp chilli sauce</li>
+ <li>3 tbsp tamari</li>
+ <li>1 tbsp sugar (optional)</li>
+ <li>3-4 pieces licorice root</li>
+ <li>1 thumb sized piece ginger</li>
+ <li>2 star anise</li>
+ <li>1/4 tsp cloves</li>
+<div class="line"></div>
+</div>
+                
+<div class="ingredientList"></div>
+ <div class="secondaryTitles">Step 1</div>
+ <p>Saute sliced beef then cover with water
+ </p>
+ <div class="secondaryTitles">Step 2</div>
+ <p>Add spices then simmer until reduced
+ </p>
+ <div class="secondaryTitles">Step 3</div>
+ <p>If you want, add sliced onion 15 minutes before serving
+ </p>
+ <div class="secondaryTitles">Step 4</div>
+ <p>Cook until tender & almost dry
+ </p>
+</div>
+<script src="index.js"></script>
+</body>
+
+</html>
